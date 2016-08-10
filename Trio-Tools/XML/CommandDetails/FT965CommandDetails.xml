@@ -1,0 +1,1330 @@
+<Commands>
+    <Feature>
+        <!--USER SETTINGS-->
+        <FeatureName>User Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>  <!--Command Prefix:  0=CommandID 1=CommandSize -->
+        <ReadCommandID>25</ReadCommandID>
+        <WriteCommandID>24</WriteCommandID>
+        <Fields>
+            <FieldName>Member RMR:</FieldName>
+            <Value>1200</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Stride:</FieldName>
+            <Value>30</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Unit of Measure:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Weight Whole:</FieldName>
+            <Value>132</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Weight Decimal:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Year of Birth:</FieldName>
+            <Value>82</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Month of Birth:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Day of Birth:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Exercise Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>28</ReadCommandID>
+        <WriteCommandID>26</WriteCommandID>
+        <Fields>
+            <FieldName>Sync Time Interval (min):</FieldName>
+            <Value>60</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Auto Sync:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Alarm:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Multiple Intensity:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Company Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>30</ReadCommandID>
+        <WriteCommandID>29</WriteCommandID>
+        <Fields>
+            <FieldName>Tenacity Steps:</FieldName>
+            <Value>10000</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>8</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Steps:</FieldName>
+            <Value>3000</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity time (min):</FieldName>
+            <Value>30</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Threshold(steps/min):</FieldName>
+            <Value>70</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Rest Allowed (min):</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Steps:</FieldName>
+            <Value>300</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Time (min):</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Time Interval(hour):</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Cycle:</FieldName>
+            <Value>6</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Cycle:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Device Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>23</ReadCommandID>
+        <WriteCommandID>22</WriteCommandID>
+        <Fields>
+            <FieldName>Month:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Day:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Year:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Hour:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Minute:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Second:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>24Hr/12Hr:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Offset Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Hour Offset:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Minute Offset:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DST Applicable:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Offset Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Started:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Start Month:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Start Day:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Start Hour:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST Ended:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST End Month:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST End Day:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DST End Hour:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Profile Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>96</ReadCommandID>
+        <WriteCommandID>95</WriteCommandID>
+        <Fields>
+            <FieldName>Sampling Time:</FieldName>
+            <Value>60</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Buffer:</FieldName>
+            <Value>4</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Frequency:</FieldName>
+            <Value>32</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Threshold:</FieldName>
+            <Value>60</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Recording per Day:</FieldName>
+            <Value>2</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Minutes Threshold:</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Interval:</FieldName>
+            <Value>60</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Max Steps in Frame:</FieldName>
+            <Value>21</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Max Time in Frame:</FieldName>
+            <Value>10</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Sampling Total Blocks:</FieldName>
+            <Value>64</Value>
+            <WriteUIControl>4</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Sensitivity Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>89</ReadCommandID>
+        <WriteCommandID>88</WriteCommandID>
+        <Fields>
+            <FieldName>Relative Limit:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sensitivity Threshold:</FieldName>
+            <Value>1700</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sleep Threshold:</FieldName>
+            <Value>20</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Screen Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>47</ReadCommandID>
+        <WriteCommandID>48</WriteCommandID>
+        <Fields>
+            <FieldName>No of Screens:</FieldName>
+            <Value>2</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>2</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Device Status</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>19</ReadCommandID>
+        <WriteCommandID>18</WriteCommandID>
+        <Fields>
+            <FieldName>Intensity Goal Achieve:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Goal Achieve:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Tenacity Goal Achieve:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Pairing Status:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Screen Timeout Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>92</ReadCommandID>
+        <WriteCommandID>91</WriteCommandID>
+        <Fields>
+            <FieldName>Timeout Time(sec):</FieldName>
+            <Value>10</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Steps Table Header</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>34</ReadCommandID>
+        <WriteCommandID>37</WriteCommandID>
+        <Fields>
+            <FieldName>No. of Packet handshake:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Table Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Steps by Hour Range</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>36</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Month:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Day:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Year:</FieldName>
+            <Value>15</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Start Hour:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>End Hour:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>No. of Packet handshake:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Data Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Current Hour Steps</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>39</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>No. of Packet handshake:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Data Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Start Profile Recording</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>57</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+    </Feature>
+    <Feature>
+        <FeatureName>Profile Table Header</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>98</ReadCommandID>
+        <WriteCommandID>97</WriteCommandID>
+    </Feature>
+    <Feature>
+        <FeatureName>Read Profile Data</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>99</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Profile Date/Time:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>4</WriteUIControl>
+            <KeyBoardType>200</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Start Block:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>End Block:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>No. of Packet handshake:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>DFU Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>65</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Firmware version:</FieldName>
+            <Value>10</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Flash Override:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>EEPROM Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>40</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Clear Steps:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Set Default:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Clear Profile:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Clear Messaging:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Clear Tallies n Charge History:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Clear FW Update Flag:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Device Mode Command</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>100</ReadCommandID>
+        <WriteCommandID>41</WriteCommandID>
+        <Fields>
+            <FieldName>Boot Up Flag:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Device Mode:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Device INFO Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>64</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Serial Number:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>10</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Model Number:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Firmware Version:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Broadcast Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Hardware Version:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Battery Level:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Boot Loader Version:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Beta Number:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Alarm Command</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>43</ReadCommandID>
+        <WriteCommandID>42</WriteCommandID>
+        <Fields>
+            <FieldName>Alarm Duration(ms):</FieldName>
+            <Value>8</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Beep Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Tallies Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>93</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Hours Used:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>10</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Beacon Connected:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Beacon Failed:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>On-Demand Connected:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>On-Demand Failed:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Number of Charge:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Hard Reset:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Vibration Count:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Charging History</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>94</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+    </Feature>
+    <Feature>
+        <FeatureName>Set Message Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>0</ReadCommandID>
+        <WriteCommandID>75</WriteCommandID>
+        <Fields>
+            <FieldName>Message:</FieldName>
+            <Value>0</Value>
+            <StringValue>Clyde Gwapo!</StringValue>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>1</KeyBoardType>
+            <MaxLength>0</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Scrolling Delay (1= 10ms):</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Message Code:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot Number:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Message Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Scrolling (OFF/ON):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Font Style:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Text Color:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>X Coordinates:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Y Coordinates:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Background Color:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Show Written Message</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>90</ReadCommandID>
+        <WriteCommandID>00</WriteCommandID>
+        <Fields>
+            <FieldName>Slot Number:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Set/Get Message Schedule</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>105</ReadCommandID>
+        <WriteCommandID>103</WriteCommandID>
+        <Fields>
+            <FieldName>Schedule ID:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Display Trigger Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Display Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Skip Button No:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sensor1:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sensor2:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Sensor3:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Schedule Year:</FieldName>
+            <Value>16</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Schedule Month:</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Schedule Day:</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Start Time(hr):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>End Time(hr):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Interval Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Interval Value:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>7</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Occurences (0=infinite):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Visible Time(sec):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Image slot(Icon):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Save User Response:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Vibration Setting:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer1:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#1:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer2:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#2:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer3:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#3:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer4:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#4:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer5:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#5:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>DataType/Answer6:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Message Slot#6:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>4</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Display On Screen</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>0</ReadCommandID>
+        <WriteCommandID>84</WriteCommandID>
+        <Fields>
+            <FieldName>Message:</FieldName>
+            <Value>0</Value>
+            <StringValue>Hello World Trio!</StringValue>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>1</KeyBoardType>
+            <MaxLength>0</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Scrolling Delay (1= 10ms):</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Message Type:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Scrolling (OFF/ON):</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Font Style:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Text Color:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>X Coordinates:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Y Coordinates:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Background Color:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Read All Image Code</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>106</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Trademark:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>3</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>5</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Erase Message Command</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>102</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+        <Fields>
+            <FieldName>Slot1:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot2:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot3:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot4:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot5:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot6:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot7:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot8:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot9:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot10:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot11:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot12:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot13:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot14:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot15:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot16:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+        <Fields>
+            <FieldName>Slot17:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+            <MaxLength>3</MaxLength>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Display Message On Screen</FeatureName>
+        <ReadWrite>NO</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>94</ReadCommandID>
+        <WriteCommandID>0</WriteCommandID>
+    </Feature>
+</Commands>

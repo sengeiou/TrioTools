@@ -1,0 +1,46 @@
+<Features>
+    <FeaturesGroup>
+        <GroupName>Settings Command</GroupName>
+        <FeatureName>User Settings</FeatureName>
+        <FeatureName>Exercise Settings</FeatureName>
+        <FeatureName>Company Settings</FeatureName>
+        <FeatureName>Device Settings</FeatureName>
+        <FeatureName>Profile Settings</FeatureName>
+        <FeatureName>Sensitivity Settings</FeatureName>
+        <FeatureName>Screen Settings</FeatureName>
+        <FeatureName>Device Status</FeatureName>
+        <FeatureName>Screen Timeout Settings</FeatureName>
+    </FeaturesGroup>
+     <FeaturesGroup>
+         <GroupName>Steps Data Command</GroupName>
+         <FeatureName>Steps Table Header</FeatureName>
+         <FeatureName>Steps by Hour Range</FeatureName>
+         <FeatureName>Current Hour Steps</FeatureName>
+     </FeaturesGroup>
+     <FeaturesGroup>
+         <GroupName>Profile Data Command</GroupName>
+         <FeatureName>Start Profile Recording</FeatureName>
+         <FeatureName>Profile Table Header</FeatureName>
+         <FeatureName>Read Profile Data</FeatureName>
+     </FeaturesGroup>
+     <FeaturesGroup>
+         <GroupName>Misc Command</GroupName>
+         <FeatureName>DFU Command</FeatureName>
+         <FeatureName>EEPROM Command</FeatureName>
+         <FeatureName>Device Mode Command</FeatureName>
+         <FeatureName>Device INFO Command</FeatureName>
+         <FeatureName>Alarm Command</FeatureName>
+         <FeatureName>Tallies Command</FeatureName>
+         <FeatureName>Charging History</FeatureName>
+     </FeaturesGroup>
+     <FeaturesGroup>
+         <GroupName>Messaging Command</GroupName>
+         <FeatureName>Set Message Command</FeatureName>
+         <FeatureName>Show Written Message</FeatureName>
+         <FeatureName>Set/Get Message Schedule</FeatureName>
+         <FeatureName>Display On Screen</FeatureName>
+         <FeatureName>Read All Image Code</FeatureName>
+         <FeatureName>Erase Message</FeatureName>
+     </FeaturesGroup>
+
+</Features>

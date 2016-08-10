@@ -1,0 +1,168 @@
+<Commands>
+    <Feature>
+        <FeatureName>User Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>25</ReadCommandID>
+        <WriteCommandID>24</WriteCommandID>
+        <Fields>
+            <FieldName>Member RMR:</FieldName>
+            <Value>1200</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Stride:</FieldName>
+            <Value>30</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Unit of Measure:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Weight Whole:</FieldName>
+            <Value>132</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Weight Decimal:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Exercise Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>28</ReadCommandID>
+        <WriteCommandID>26</WriteCommandID>
+        <Fields>
+            <FieldName>Sync Time Interval (min):</FieldName>
+            <Value>60</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Auto Sync:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Alarm:</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>1</WriteUIControl>
+            <KeyBoardType>100</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Company Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>30</ReadCommandID>
+        <WriteCommandID>29</WriteCommandID>
+        <Fields>
+            <FieldName>Tenacity Steps:</FieldName>
+            <Value>10000</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Steps:</FieldName>
+            <Value>3000</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity time (min):</FieldName>
+            <Value>30</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Intensity Threshold (steps/min):</FieldName>
+            <Value>70</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Steps:</FieldName>
+            <Value>300</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Time (min):</FieldName>
+            <Value>5</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Time Interval(hour):</FieldName>
+            <Value>1</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Frequency Cycle:</FieldName>
+            <Value>6</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+    </Feature>
+    <Feature>
+        <FeatureName>Device Settings</FeatureName>
+        <ReadWrite>YES</ReadWrite>
+        <CommandPrefix>0</CommandPrefix>
+        <ReadCommandID>23</ReadCommandID>
+        <WriteCommandID>22</WriteCommandID>
+        <Fields>
+            <FieldName>Month:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Day:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Year:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Hour:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Minute:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>Second:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>4</KeyBoardType>
+        </Fields>
+        <Fields>
+            <FieldName>AM/PM:</FieldName>
+            <Value>0</Value>
+            <WriteUIControl>0</WriteUIControl>
+            <KeyBoardType>50</KeyBoardType>
+        </Fields>
+    </Feature>
+</Commands>

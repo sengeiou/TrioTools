@@ -1,0 +1,44 @@
+<SupportedModels>
+    <Model>
+        <Name>FT961</Name>
+        <Number>961</Number>
+    </Model>
+    <Model>
+        <Name>FT962</Name>
+        <Number>962</Number>
+    </Model>
+    <Model>
+        <Name>FT965</Name>
+        <Number>965</Number>
+    </Model>
+    <Model>
+        <Name>FT905</Name>
+        <Number>905</Number>
+    </Model>
+    <Model>
+        <Name>PE932</Name>
+        <Number>932</Number>
+    </Model>
+    <Model>
+        <Name>HT971</Name>
+        <Number>971</Number>
+    </Model>
+<!--
+    <Model>
+        <Name>PE936</Name>
+        <Number>936</Number>
+    </Model>
+    <Model>
+        <Name>PE939</Name>
+        <Number>939</Number>
+    </Model>
+    <Model>
+        <Name>PE961</Name>
+        <Number>961</Number>
+    </Model>
+    <Model>
+        <Name>FT900</Name>
+        <Number>900</Number>
+    </Model>
+-->
+</SupportedModels>

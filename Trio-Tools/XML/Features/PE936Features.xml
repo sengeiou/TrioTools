@@ -1,0 +1,39 @@
+<Features>
+    <FeaturesGroup>
+        <GroupName>Settings Command</GroupName>
+        <FeatureName>User Settings</FeatureName>
+        <FeatureName>Exercise Settings</FeatureName>
+        <FeatureName>Company Settings</FeatureName>
+        <FeatureName>Device Settings</FeatureName>
+<!-- <FeatureName>Signature Settings</FeatureName>
+        <FeatureName>Seizure Settings</FeatureName>
+-->
+    </FeaturesGroup>
+<!--
+    <FeaturesGroup>
+        <GroupName>Steps Data Command</GroupName>
+        <FeatureName>Steps Table Header</FeatureName>
+        <FeatureName>Read Steps Data</FeatureName>
+    </FeaturesGroup>
+    <FeaturesGroup>
+        <GroupName>Signature Data Command</GroupName>
+        <FeatureName>Read Signature Data</FeatureName>
+        <FeatureName>Signature Data Table</FeatureName>
+    </FeaturesGroup>
+    <FeaturesGroup>
+        <GroupName>Seizure Data Command</GroupName>
+        <FeatureName>Read Seizure Data</FeatureName>
+        <FeatureName>Seizure Data Table</FeatureName>
+    </FeaturesGroup>
+    <FeaturesGroup>
+        <GroupName>Utilities Command</GroupName>
+        <FeatureName>EEPROM Command</FeatureName>
+        <FeatureName>Set Alarm</FeatureName>
+        <FeatureName>Goal Status</FeatureName>
+        <FeatureName>Set Device Mode</FeatureName>
+        <FeatureName>LCD Test</FeatureName>
+        <FeatureName>Set Screen Sequence</FeatureName>
+        <FeatureName>Set Step Sensitivity</FeatureName>
+    </FeaturesGroup>
+-->
+</Features>

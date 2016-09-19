@@ -121,11 +121,11 @@
         
         if(self.deviceInfo.model == 961 || self.deviceInfo.model == 939 || self.deviceInfo.model == 932 ||
            self.deviceInfo.model == 936 || self.deviceInfo.model == 661 || self.deviceInfo.model == 969 ||
-           self.deviceInfo.model == 905 || self.deviceInfo.model == 962)
+           self.deviceInfo.model == 905 || self.deviceInfo.model == 962 || self.deviceInfo.model == 971)
         {
             commandLen = COMPANY_SETTINGS_COMMAND_SIZE_1;
             if(self.deviceInfo.model == 961 || self.deviceInfo.model == 939 || self.deviceInfo.model == 661
-               || self.deviceInfo.model == 969 || self.deviceInfo.model == 962 || self.deviceInfo.model == 905)
+               || self.deviceInfo.model == 969 || self.deviceInfo.model == 962 || self.deviceInfo.model == 905 || self.deviceInfo.model == 971)
             {
                 commandLen = COMPANY_SETTINGS_COMMAND_SIZE_2;
             }

@@ -68,7 +68,7 @@
         {
             self.samplingThreshold =(int) field.value;
         }
-        else if([field.fieldname isEqualToString:@"Sampling Recording per Day::"])
+        else if([field.fieldname isEqualToString:@"Sampling Recording per Day:"])
         {
             self.samplingRecordingPerDay =(int) field.value;
         }
